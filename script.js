@@ -9,7 +9,7 @@ const imageUrls = [
 // Function to download a single image
 function downloadImage(image) {
     return new Promise((resolve, reject) => {
-        const img = new Image();  // Create a new image element
+        const img = document.createElement('img');  // Create a new img element
 
         img.src = image.url;  // Set the source to the provided URL
 
