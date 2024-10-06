@@ -1,5 +1,5 @@
 const imageUrls = [
-    { url: 'https://via.placeholder.com/150' },
+    { url: 'https://picsum.photos/id/237/200/300' },
     { url: 'https://via.placeholder.com/200' },
     { url: 'https://via.placeholder.com/250' },
    // { url: 'https://invalid-url.com/404' }  // This is an invalid URL for testing
